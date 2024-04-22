@@ -1,8 +1,8 @@
 <template>
     <div>
-        <p>componente de mensagem</p>
+        <Message :message="message" v-show="message" />
         <div>
-            <form id="burger-form">
+            <form id="burger-form" @submit="createBurger">
                 <!-- Nome -->
                 <div class="input-container">
                     <label for="name">Nome do cliente:</label>
@@ -45,6 +45,9 @@
 </template>
 
 <script>
+
+import Message from "./Message.vue";
+
 export default {
     name: "BurgerForm",
     data() {
@@ -59,7 +62,7 @@ export default {
             meat: null,
             optional: [],
             // mensagem //
-            status: "solicitado",
+            status: [],
             message: null
         }
     },
@@ -71,10 +74,58 @@ export default {
             this.breads = ingredientes.paes;
             this.meats = ingredientes.carnes;
             this.optionaldata = ingredientes.opcionais;
+        },
+        // create burge //
+        async createBurger(e) {
+
+            e.preventDefault();
+
+            const data = {
+                nome: this.name,
+                pao: this.bread,
+                carne: this.meat,
+                opcionais: Array.from(this.optional),
+                status: "Solicitado"
+            }
+
+            // transforma obj em string
+            const dataJson = JSON.stringify(data);
+
+            // pegar dados via post e id inteiro
+            const req = await fetch("http://localhost:3000/burgers", {
+                method: "POST",
+                headers: {
+                    "Content-type": "application/json"
+                },
+                body: dataJson
+            });
+
+            const response = await req.json();
+
+            // colocar uma msg de sistema
+            this.message = `Pedido Nº ${response.id} realizado com sucesso`
+
+            // limpar msg
+            setTimeout(() => {
+                this.message = null;
+            }, 3000);
+
+
+            // limpar os campos
+            this.name = null;
+            this.bread = null;
+            this.meat = null;
+            this.optional = [];
+
+
+            console.log(response);
         }
     },
     mounted() {
         this.getIngredientes();
+    },
+    components: {
+        Message
     }
 };
 </script>

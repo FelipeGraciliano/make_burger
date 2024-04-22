@@ -1,113 +1,170 @@
 {
-    "ingredientes": {
-      "paes": [
-        {
-          "id": 1,
-          "tipo": "Italiano Branco"
-        },
-        {
-          "id": 2,
-          "tipo": "3 Queijos"
-        },
-        {
-          "id": 3,
-          "tipo": "Parmesão e Orégano"
-        },
-        {
-          "id": 4,
-          "tipo": "Integral"
-        },
-        {
-          "id": 5,
-          "tipo": "Pão Francês"
-        }
-      ],
-      "carnes": [
-        {
-          "id": 1,
-          "tipo": "Maminha"
-        },
-        {
-          "id": 2,
-          "tipo": "Alcatra"
-        },
-        {
-          "id": 3,
-          "tipo": "Picanha"
-        },
-        {
-          "id": 4,
-          "tipo": "Veggie burger"
-        },
-        {
-          "id": 5,
-          "tipo": "Frango"
-        }
-      ],
-      "opcionais": [
-        {
-          "id": 1,
-          "tipo": "Bacon"
-        },
-        {
-          "id": 2,
-          "tipo": "Cheddar"
-        },
-        {
-          "id": 3,
-          "tipo": "Salame"
-        },
-        {
-          "id": 4,
-          "tipo": "Tomate"
-        },
-        {
-          "id": 4,
-          "tipo": "Cebola roxa"
-        },
-        {
-          "id": 4,
-          "tipo": "Pepino"
-        }
-      ]
-    },
-    "status": [
+  "ingredientes": {
+    "paes": [
       {
         "id": 1,
-        "tipo": "Solicitado"
+        "tipo": "Italiano Branco"
       },
       {
         "id": 2,
-        "tipo": "Em produção"
+        "tipo": "3 Queijos"
       },
       {
         "id": 3,
-        "tipo": "Finalizado"
-      }
-    ],
-    "burgers": [
-      {
-        "nome": "Matheus Battisti",
-        "carne": "Picanha",
-        "pao": "Italiano Branco",
-        "opcionais": [
-          "Bacon",
-          "Salame",
-          "Cebola roxa"
-        ],
-        "status": "Finalizado",
-        "id": 1
+        "tipo": "Parmesão e Orégano"
       },
       {
-        "nome": "João Coelho",
-        "carne": "Maminha",
-        "pao": "3 Queijos",
-        "opcionais": [
-          "Salame",
-          "Cebola roxa"
-        ],
-        "status": "Solicitado",
-        "id": 4
+        "id": 4,
+        "tipo": "Integral"
+      },
+      {
+        "id": 5,
+        "tipo": "Pão Francês"
+      }
+    ],
+    "carnes": [
+      {
+        "id": 1,
+        "tipo": "Maminha"
+      },
+      {
+        "id": 2,
+        "tipo": "Alcatra"
+      },
+      {
+        "id": 3,
+        "tipo": "Picanha"
+      },
+      {
+        "id": 4,
+        "tipo": "Veggie burger"
+      },
+      {
+        "id": 5,
+        "tipo": "Frango"
+      }
+    ],
+    "opcionais": [
+      {
+        "id": 1,
+        "tipo": "Bacon"
+      },
+      {
+        "id": 2,
+        "tipo": "Cheddar"
+      },
+      {
+        "id": 3,
+        "tipo": "Salame"
+      },
+      {
+        "id": 4,
+        "tipo": "Tomate"
+      },
+      {
+        "id": 4,
+        "tipo": "Cebola roxa"
+      },
+      {
+        "id": 4,
+        "tipo": "Pepino"
       }
     ]
-  }
+  },
+  "status": [
+    {
+      "id": "1",
+      "tipo": "Solicitado"
+    },
+    {
+      "id": "2",
+      "tipo": "Em produção"
+    },
+    {
+      "id": "3",
+      "tipo": "Finalizado"
+    }
+  ],
+  "burgers": [
+    {
+      "id": "9a6a",
+      "nome": "Lidiane Rangel",
+      "pao": "3 Queijos",
+      "carne": "Alcatra",
+      "opcionais": [
+        "Cheddar"
+      ],
+      "status": "Solicitado"
+    },
+    {
+      "id": "ee6c",
+      "nome": null,
+      "pao": null,
+      "carne": null,
+      "opcionais": [],
+      "status": "Solicitado"
+    },
+    {
+      "id": "b39f",
+      "nome": "Lidiane Rangel",
+      "pao": "Parmesão e Orégano",
+      "carne": "Picanha",
+      "opcionais": [
+        "Tomate",
+        "Cheddar"
+      ],
+      "status": "Solicitado"
+    },
+    {
+      "id": "0891",
+      "nome": "felipe graciliano dos santos",
+      "pao": "3 Queijos",
+      "carne": "Veggie burger",
+      "opcionais": [
+        "Bacon",
+        "Cebola roxa"
+      ],
+      "status": "Solicitado"
+    },
+    {
+      "id": "9ea6",
+      "nome": "",
+      "pao": "",
+      "carne": "",
+      "opcionais": [],
+      "status": "Solicitado"
+    },
+    {
+      "id": "367c",
+      "nome": "Felipe Graciliano Dos Santos",
+      "pao": "Pão Francês",
+      "carne": "Maminha",
+      "opcionais": [
+        "Tomate"
+      ],
+      "status": "Solicitado"
+    },
+    {
+      "id": "d98a",
+      "nome": "Isa",
+      "pao": "Pão Francês",
+      "carne": "Frango",
+      "opcionais": [
+        "Tomate"
+      ],
+      "status": "Solicitado"
+    },
+    {
+      "id": "adae",
+      "nome": "felipe graciliano dos santos",
+      "pao": "3 Queijos",
+      "carne": "Picanha",
+      "opcionais": [
+        "Bacon",
+        "Salame",
+        "Cebola roxa"
+      ],
+      "status": "Solicitado"
+    }
+  ]
+}
