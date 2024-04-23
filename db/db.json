@@ -87,82 +87,37 @@
   ],
   "burgers": [
     {
-      "id": "9a6a",
+      "id": "f8b3",
       "nome": "Lidiane Rangel",
-      "pao": "3 Queijos",
-      "carne": "Alcatra",
-      "opcionais": [
-        "Cheddar"
-      ],
-      "status": "Solicitado"
-    },
-    {
-      "id": "ee6c",
-      "nome": null,
-      "pao": null,
-      "carne": null,
-      "opcionais": [],
-      "status": "Solicitado"
-    },
-    {
-      "id": "b39f",
-      "nome": "Lidiane Rangel",
-      "pao": "Parmesão e Orégano",
+      "pao": "Italiano Branco",
       "carne": "Picanha",
       "opcionais": [
-        "Tomate",
-        "Cheddar"
+        "Bacon",
+        "Tomate"
       ],
-      "status": "Solicitado"
+      "status": "Em produção"
     },
     {
-      "id": "0891",
+      "id": "a917",
       "nome": "felipe graciliano dos santos",
-      "pao": "3 Queijos",
+      "pao": "Italiano Branco",
       "carne": "Veggie burger",
       "opcionais": [
-        "Bacon",
-        "Cebola roxa"
+        "Cebola roxa",
+        "Cheddar",
+        "Tomate"
       ],
       "status": "Solicitado"
     },
     {
-      "id": "9ea6",
-      "nome": "",
-      "pao": "",
-      "carne": "",
-      "opcionais": [],
-      "status": "Solicitado"
-    },
-    {
-      "id": "367c",
-      "nome": "Felipe Graciliano Dos Santos",
+      "id": "171c",
+      "nome": "felipesantosslp",
       "pao": "Pão Francês",
       "carne": "Maminha",
       "opcionais": [
-        "Tomate"
-      ],
-      "status": "Solicitado"
-    },
-    {
-      "id": "d98a",
-      "nome": "Isa",
-      "pao": "Pão Francês",
-      "carne": "Frango",
-      "opcionais": [
-        "Tomate"
-      ],
-      "status": "Solicitado"
-    },
-    {
-      "id": "adae",
-      "nome": "felipe graciliano dos santos",
-      "pao": "3 Queijos",
-      "carne": "Picanha",
-      "opcionais": [
-        "Bacon",
-        "Salame",
-        "Cebola roxa"
+        "Cebola roxa",
+        "Cheddar",
+        "Bacon"
       ],
       "status": "Solicitado"
     }
