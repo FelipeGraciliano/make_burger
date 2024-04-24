@@ -86,40 +86,6 @@
     }
   ],
   "burgers": [
-    {
-      "id": "f8b3",
-      "nome": "Lidiane Rangel",
-      "pao": "Italiano Branco",
-      "carne": "Picanha",
-      "opcionais": [
-        "Bacon",
-        "Tomate"
-      ],
-      "status": "Em produção"
-    },
-    {
-      "id": "a917",
-      "nome": "felipe graciliano dos santos",
-      "pao": "Italiano Branco",
-      "carne": "Veggie burger",
-      "opcionais": [
-        "Cebola roxa",
-        "Cheddar",
-        "Tomate"
-      ],
-      "status": "Solicitado"
-    },
-    {
-      "id": "171c",
-      "nome": "felipesantosslp",
-      "pao": "Pão Francês",
-      "carne": "Maminha",
-      "opcionais": [
-        "Cebola roxa",
-        "Cheddar",
-        "Bacon"
-      ],
-      "status": "Solicitado"
-    }
+    
   ]
 }
