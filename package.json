@@ -7,7 +7,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "backend": "json-server --watch db/db.json",
-    "deploy": "npm run build && gh-pages -d dist"
+    "deploy": "npm run build && npm run backend && gh-pages -d dist && "
   },
   "dependencies": {
     "core-js": "^3.8.3",
